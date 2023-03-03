@@ -1,0 +1,391 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*banner_section st*/
+.banner_section {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navvv_bar {
+    padding: 30px;
+}
+
+.navvv_bar h1 {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.navvv_bar h1 span {
+    color: rgb(255, 189, 57);
+}
+
+.navvv_bar ul {}
+
+.navvv_bar ul li {
+    margin-left: 27px;
+}
+
+.navvv_bar ul li a {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    margin: 0;
+}
+
+.navvv_bar ul li a:hover {
+    color: rgb(255, 189, 57);
+    border-bottom: 2px double rgb(255, 189, 57);
+    border-top: 2px double rgb(255, 189, 57);
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.banner_info {}
+
+.banner_info img {
+    position: relative;
+    height: 100%;
+}
+
+.banner_info p {
+    margin: 35% 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.banner_info h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.banner_info span {
+    color: rgb(255, 189, 57);
+}
+
+.banner_info h5 {
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.banner_info a {
+    margin: 50px 0px 0px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 15px 25px;
+    padding-top: 20px;
+    background-color: rgb(255, 189, 57);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.banner_info a:hover {
+    background-color: rgb(254, 145, 49);
+    color: rgb(255, 255, 255);
+    transition: all 0.7s ease-in-out 0s;
+}
+
+/*about_section st*/
+.about_section {
+    background: rgb(255, 189, 57);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about_me {}
+
+.about_me h1 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 30%;
+}
+
+.about_info {
+    margin-top: 20%;
+}
+
+.about_info h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0px 0px -5px;
+    color: #000;
+}
+
+.fr_span span {
+    font-weight: 800;
+}
+
+.about_info h4 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.about_info h4 span {
+    color: #fff;
+    font-weight: 500;
+}
+
+.about_info li {
+    list-style: none;
+    display: flex;
+}
+
+.about_info li span:first-child {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about_info li span {
+    margin-left: 38px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.about_info li span p {}
+
+.about_img {
+    position: absolute;
+    bottom: 0px;
+    left: 60%;
+}
+
+.about_img img {
+    width: 95%;
+}
+
+/* resume part st*/
+.resume_section {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.resume_head h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume_head p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.resume_info {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.resume_info h1 {
+    font-weight: 900;
+    color: rgb(255, 189, 57);
+}
+
+.resume_info h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.resume_info h6 {
+    font-size: 22px;
+    color: rgb(221, 221, 221);
+    margin-bottom: 25px;
+}
+
+.resume_info p {
+    font-weight: 300;
+    color: rgb(221, 221, 221);
+    font-size: 16px;
+}
+
+/* service part st*/
+.resume_head span {
+    text-align: center;
+    margin: 0;
+    margin-left: 45%;
+    color: #ffbd39;
+    font-weight: 700;
+}
+
+.service_section {
+    background: #000;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px;
+}
+
+.service_info {
+    text-align: center;
+    background: #1a1a1a;
+    padding: 40px;
+}
+
+.service_info i {
+    color: #ffbd39;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.service_info h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.service_info span {
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.service_info:hover i {
+    color: #fff;
+    transition: .6s all ease-in-out;
+}
+
+.service_info:hover h1 {
+    color: #000;
+    transition: .6s all ease-in-out;
+}
+
+.service_info:hover span {
+    color: #000;
+    transition: .6s all ease-in-out;
+}
+
+.service_info:hover {
+    background-color: #ffbd39;
+    color: #fff;
+    transition: .6s all ease-in-out;
+}
+
+/*project_section st*/
+.project_section {
+    background-color: #000;
+    padding: 40px 0px 25px;
+    color: #fff;
+    border: 2px solid #ffbd39;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.project_img {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.project_img img {}
+
+.project_img::before {
+    content: '';
+    position: absolute;
+    background-color: #ffbd39;
+    height: 0%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.project_img:hover::before {
+    transition: .5s all ease-in-out;
+    opacity: .9;
+    height: 100%;
+}
+
+.project_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+
+.project_text h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.project_text p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project_img:hover .project_text {
+    opacity: 1;
+}
+
+/*footer start */
+footer {
+    background-color: rgb(255, 189, 57);
+    color: #000;
+    padding: 20px;
+}
+
+.footer_icon p {
+    margin: 0;
+}
+
+.footer_icon p span {
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer_icon p span:hover {
+    color: #000;
+}
+
+.footer_icon {
+    text-align: center;
+    margin: 0;
+}
+
+.footer_icon ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_icon ul li {}
+
+.footer_icon ul li a {
+    color: #000;
+}
+
+.footer_icon ul li i {
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: #fff;
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.footer_icon ul li i:hover {
+    color: #ffbd39;
+    transition: .6s all ease-in-out;
+}
